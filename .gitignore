@@ -7,5 +7,9 @@
 *.iml
 *.class
 *.log
+*.csproj
+*.sln
 out/
-
+obj/
+bin/
+.vs/
