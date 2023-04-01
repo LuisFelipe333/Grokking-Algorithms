@@ -1,5 +1,5 @@
 # Grokking-Algorithms
-Algorithms of the book Grokking Algorithms made in Java and C#
+Algorithms of the book Grokking Algorithms made in Java and C# and in the original language that the book uses, python
 
 
 Algorithm complexity:
