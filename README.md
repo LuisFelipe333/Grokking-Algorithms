@@ -7,3 +7,10 @@ Algorithm complexity:
 - Binary Search: O(log n)
 - Selection Sort: O(n^2)
 - Quick Sort: O(*n log n*) average
+- Breadth-first Search: O(V + E)
+
+Glosary:
+
++ n : Number of elements
++ V : Number of vertices
++ E : Number of edges
