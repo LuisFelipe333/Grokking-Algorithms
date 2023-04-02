@@ -10,24 +10,20 @@ graph['peggy'] = []
 graph['thom'] = []
 graph['jonny'] = []
 
-def person_is_seller(name):
- return name[-1] == 'm'
-
-def search(name):
+def search(firstPerson, personToMeet):
     search_queue = deque()
-    search_queue += graph[name]
+    search_queue += graph[firstPerson]
     searched = []
     while search_queue:
         person = search_queue.popleft()
         if not person in searched:
-            if person_is_seller(person):
-                print (person + "is a mango seller!")
+            if person == personToMeet:
+                print (firstPerson + " can meet " + personToMeet)
                 return True
             else:
                 search_queue += graph[person]
                 searched.append(person)
-    return False
+    print (firstPerson + " can't meet " + personToMeet)
 
-
-
-search('you')
+search('you', 'thom')
+search('alice', 'thom')
