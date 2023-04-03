@@ -8,6 +8,7 @@ Algorithm complexity:
 - Selection Sort: O(n^2)
 - Quick Sort: O(*n log n*) average
 - Breadth-first Search: O(V + E)
+- Dijkstra's Algorithm: O(V^2)
 
 Glosary:
 
